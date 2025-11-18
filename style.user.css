@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name           SAP pet game pieces for chess.com
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Game pieces based on the hit mobile game Super Auto Pets
+@author         lytemare
+==/UserStyle== */
+
+@-moz-document domain("chess.com")
+{
+    :root {
+          --theme-piece-set-wp: url("https://raw.githubusercontent.com/j-lyte/SAP-Chess-Pieces/refs/heads/main/Assets/pw.png");
+          --theme-piece-set-wn: url("https://raw.githubusercontent.com/j-lyte/SAP-Chess-Pieces/refs/heads/main/Assets/nw.png");
+          --theme-piece-set-wb: url("https://raw.githubusercontent.com/j-lyte/SAP-Chess-Pieces/refs/heads/main/Assets/bw.png");
+          --theme-piece-set-wr: url("https://raw.githubusercontent.com/j-lyte/SAP-Chess-Pieces/refs/heads/main/Assets/rw.png");
+          --theme-piece-set-wq: url("https://raw.githubusercontent.com/j-lyte/SAP-Chess-Pieces/refs/heads/main/Assets/qw.png");
+          --theme-piece-set-wk: url("https://raw.githubusercontent.com/j-lyte/SAP-Chess-Pieces/refs/heads/main/Assets/kw.png");
+
+          --theme-piece-set-bp: url("https://raw.githubusercontent.com/j-lyte/SAP-Chess-Pieces/refs/heads/main/Assets/pb.png");
+          --theme-piece-set-bn: url("https://raw.githubusercontent.com/j-lyte/SAP-Chess-Pieces/refs/heads/main/Assets/nb.png");
+          --theme-piece-set-bb: url("https://raw.githubusercontent.com/j-lyte/SAP-Chess-Pieces/refs/heads/main/Assets/bb.png");
+          --theme-piece-set-br: url("https://raw.githubusercontent.com/j-lyte/SAP-Chess-Pieces/refs/heads/main/Assets/rb.png");
+          --theme-piece-set-bq: url("https://raw.githubusercontent.com/j-lyte/SAP-Chess-Pieces/refs/heads/main/Assets/qb.png");
+          --theme-piece-set-bk: url("https://raw.githubusercontent.com/j-lyte/SAP-Chess-Pieces/refs/heads/main/Assets/kb.png");
+    }
+}
